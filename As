@@ -1,0 +1,15 @@
+cd ruta/de/tu/proyecto
+# 1. Inicializa Git en tu carpeta
+git init
+
+# 2. Agrega todos los archivos al control de versiones
+git add .
+
+# 3. Crea un primer commit
+git commit -m "Primer commit"
+
+# 4. Conecta tu repositorio local con el de GitHub
+git remote add origin https://github.com/TU_USUARIO/mi-primer-repo.git
+
+# 5. Sube el código a GitHub
+git push -u origin master
